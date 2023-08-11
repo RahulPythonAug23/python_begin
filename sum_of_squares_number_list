@@ -1,0 +1,10 @@
+# Code to find the sum of squares of each element of the list using for loop  
+
+numbers = [3, 5, 23, 6, 5, 1, 2, 9, 8]  
+
+sum = 0 
+
+for num in numbers:
+    sum = sum + num * num
+    
+print(f"The sum ofsquare of numbers is : {sum}")
