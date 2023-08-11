@@ -1,0 +1,32 @@
+#Prime number from given list
+
+num = int(input("Please Enter number to be checked whether number is prime number or not :"))
+print(num)
+condition = 0
+
+def is_prime_number(number):
+    
+    
+    iter = 2
+    
+    while iter <= number/2:
+        
+        if number % iter == 0:
+            condition = 1
+            
+        else :
+            condition = 0
+        iter += 1
+        
+    if condition == 0:
+       print(f"{number} is a PRIME number")  
+    
+    else :
+       print(f"{number} is not a PRIME number")  
+     
+
+is_prime_number(num)
+        
+        
+    
+    
