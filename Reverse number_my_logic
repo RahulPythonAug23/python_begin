@@ -1,0 +1,11 @@
+#Program to reverse a number
+
+num = int(input("Please Enter your number to be reversed: "))
+print(f"Your number before reverse = {num}")
+
+rev_num = 0
+while num != 0:
+    rev_num = rev_num * 10 + num %10
+    num = int(num /10)
+    
+print(f"Your reversed Number is: {rev_num}")
