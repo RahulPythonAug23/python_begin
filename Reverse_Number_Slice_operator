@@ -1,0 +1,9 @@
+#Reverse Number using slice Operator
+
+num = int(input("Please Enter number to be reversed : "))
+
+print(f"You have Entered the number to be revered : {num}")
+
+rev_num = int(str(num)[::-1])
+
+print(f"Reversed number is : {rev_num}")
