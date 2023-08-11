@@ -1,0 +1,11 @@
+#numbers to be squared in a list using for loop
+
+numbers = [4, 2, 6, 7, 3, 5, 8, 10, 6, 1, 9, 2]  
+
+square_numbers = []
+
+for i in numbers:
+    
+    square_numbers.append(i*i)
+    
+print(f"Squared List is : {square_numbers}")
